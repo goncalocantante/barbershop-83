@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@theme {
+  /* Switching to a Silver/Platinum theme for a cleaner premium look */
+  --color-primary: #C0C0C0; /* Silver */
+  --color-primary-hover: #E8E8E8; /* Lighter Silver */
+  --color-primary-light: #A0A0A0; /* Darker Silver/Gray */
+
+  --color-dark: #121212; /* Deep Black */
+  --color-dark-lighter: #1E1E1E; /* Soft Black */
+  --color-dark-darker: #000000; /* Pure Black */
+
+  --color-light: #FAFAFA;
+  --color-light-muted: #9CA3AF;
+
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+}
+
+:root {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* Removed display:flex and centering to allow full width */
+}
