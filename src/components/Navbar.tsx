@@ -15,7 +15,7 @@ const Navbar = () => {
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-20">
           <div class="flex-shrink-0">
-            <span class="text-2xl font-serif font-bold text-primary">BARBER 83</span>
+            <span class="text-2xl font-serif font-bold text-primary">BARBERSHOP 83</span>
           </div>
           
           <div class="hidden md:block">

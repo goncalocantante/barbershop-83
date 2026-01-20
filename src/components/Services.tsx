@@ -12,12 +12,12 @@ const Services = () => {
     <section id="services" class="py-20 bg-dark-lighter">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
-          <h2 class="text-primary text-lg font-bold tracking-widest uppercase">Our Menu</h2>
+          <h2 class="text-primary text-lg font-bold tracking-widest uppercase">Pricing</h2>
           <h3 class="mt-2 text-3xl leading-8 font-serif font-bold tracking-tight text-white sm:text-4xl">
-            Services & Pricing
+            Digital Menu
           </h3>
           <p class="mt-4 max-w-2xl text-xl text-gray-400 mx-auto">
-            Top-tier grooming services tailored to your style.
+            Professional services by Pedro Pereira Felizardo.
           </p>
         </div>
 
@@ -36,10 +36,12 @@ const Services = () => {
 
         <div class="mt-16 text-center">
           <a
-            href="#book"
+            href="https://wa.me/351000000000"
+            target="_blank"
+            rel="noopener noreferrer"
             class="inline-block border-2 border-primary text-primary hover:bg-primary hover:text-dark font-bold py-3 px-8 transition-colors duration-300 uppercase tracking-wider"
           >
-            Book Full Service
+            Book via WhatsApp
           </a>
         </div>
       </div>

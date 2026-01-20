@@ -12,7 +12,7 @@ const Contact = () => {
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Info & Hours */}
           <div class="bg-dark p-8 border border-white/5 rounded-lg">
-            <h4 class="text-2xl font-serif font-bold text-white mb-6">Barber 83</h4>
+            <h4 class="text-2xl font-serif font-bold text-white mb-6">Barbershop 83</h4>
             
             <div class="space-y-6">
               <div class="flex items-start">
@@ -21,8 +21,8 @@ const Contact = () => {
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <div>
-                  <p class="text-gray-300">123 Vintage Ave,</p>
-                  <p class="text-gray-300">Lisbon, Portugal 1000-001</p>
+                  <p class="text-gray-300">Alcântara,</p>
+                  <p class="text-gray-300">Lisboa, Portugal</p>
                 </div>
               </div>
 
@@ -30,7 +30,7 @@ const Contact = () => {
                  <svg class="h-6 w-6 text-primary mt-1 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <p class="text-gray-300">+351 21 123 4567</p>
+                <p class="text-gray-300">+351 000 000 000</p>
               </div>
 
               <div class="flex items-start">
@@ -52,21 +52,27 @@ const Contact = () => {
             </div>
 
              <div class="mt-8">
-               <a href="mailto:info@barber83.com" class="text-primary hover:text-white transition-colors underline">info@barber83.com</a>
+               <a href="mailto:info@barbershop83.com" class="text-primary hover:text-white transition-colors underline">info@barbershop83.com</a>
              </div>
           </div>
 
           {/* Map Placeholder */}
           <div class="h-full w-full min-h-[300px] bg-dark border border-white/5 rounded-lg overflow-hidden relative">
-            {/* Actual Google Maps Embed would go here. Using an image for now. */}
-            <img 
-              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1474&q=80" 
-              alt="Map location" 
-              class="w-full h-full object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-500"
-            />
-            <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
-              <span class="bg-dark/80 px-4 py-2 text-white font-bold border border-primary backdrop-blur-sm">View on Map</span>
-            </div>
+            <a 
+              href="https://www.google.com/maps/search/?api=1&query=Barbershop+83+Alcantara" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="block w-full h-full"
+            >
+              <img 
+                src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1474&q=80" 
+                alt="Map location" 
+                class="w-full h-full object-cover opacity-50 grayscale hover:grayscale-0 transition-all duration-500"
+              />
+              <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                <span class="bg-dark/80 px-4 py-2 text-white font-bold border border-primary backdrop-blur-sm">View on Google Maps</span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
